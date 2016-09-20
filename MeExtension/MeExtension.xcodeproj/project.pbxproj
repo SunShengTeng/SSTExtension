@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D65E1F8A1D91126C006F7EAD /* Category in Resources */ = {isa = PBXBuildFile; fileRef = D65E1F891D91126C006F7EAD /* Category */; };
 		D6C45CC01D9111220017E6E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C45CBF1D9111220017E6E6 /* main.m */; };
 		D6C45CC31D9111220017E6E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C45CC21D9111220017E6E6 /* AppDelegate.m */; };
 		D6C45CC61D9111220017E6E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C45CC51D9111220017E6E6 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D65E1F891D91126C006F7EAD /* Category */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Category; sourceTree = "<group>"; };
 		D6C45CBB1D9111220017E6E6 /* MeExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C45CBF1D9111220017E6E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6C45CC11D9111220017E6E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		D6C45CB21D9111220017E6E6 = {
 			isa = PBXGroup;
 			children = (
+				D65E1F891D91126C006F7EAD /* Category */,
 				D6C45CBD1D9111220017E6E6 /* MeExtension */,
 				D6C45CD71D9111220017E6E6 /* MeExtensionTests */,
 				D6C45CE21D9111220017E6E6 /* MeExtensionUITests */,
@@ -248,6 +251,7 @@
 			files = (
 				D6C45CCE1D9111220017E6E6 /* LaunchScreen.storyboard in Resources */,
 				D6C45CCB1D9111220017E6E6 /* Assets.xcassets in Resources */,
+				D65E1F8A1D91126C006F7EAD /* Category in Resources */,
 				D6C45CC91D9111220017E6E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				D6C45CEA1D9111230017E6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6C45CEB1D9111230017E6E6 /* Build configuration list for PBXNativeTarget "MeExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				D6C45CED1D9111230017E6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6C45CEE1D9111230017E6E6 /* Build configuration list for PBXNativeTarget "MeExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				D6C45CF01D9111230017E6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
